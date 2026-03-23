@@ -3,103 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Vendas Moderna</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px;
-    }
-    header h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 18px;
-      opacity: 0.8;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    .card {
-      background: rgba(255,255,255,0.08);
-      backdrop-filter: blur(10px);
-      border-radius: 12px;
-      padding: 25px;
-      margin-bottom: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    }
-    h2 {
-      margin-bottom: 10px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .cta {
-      text-align: center;
-    }
-    .btn {
-      display: inline-block;
-      background: #00ffcc;
-      color: #000;
-      padding: 15px 30px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 15px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #00cc99;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      opacity: 0.7;
-    }
-  </style>
+  <title>Página de Vendas Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-  <header>
-    <h1>Transforme Suas Vendas Online</h1>
-    <p>Uma página moderna, rápida e pronta para converter</p>
-  </header>
+  <!-- HERO -->
+  <section class="bg-gradient-to-r from-purple-600 to-blue-500 text-white text-center py-20 px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Crie Seu Negócio Online Hoje</h1>
+    <p class="text-lg md:text-xl mb-6">Página pronta para vender no automático</p>
+    <a href="#" class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold hover:bg-gray-200">COMEÇAR AGORA</a>
+  </section>
 
-  <div class="container">
-
-    <div class="card">
-      <h2>O que você recebe</h2>
-      <ul>
-        <li>Design moderno e responsivo</li>
-        <li>Carregamento rápido</li>
-        <li>Fácil edição</li>
-        <li>Pronto para vendas</li>
-      </ul>
+  <!-- BENEFÍCIOS -->
+  <section class="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="font-bold text-xl mb-2">🚀 Rápido</h3>
+      <p>Carregamento leve e otimizado para vendas.</p>
     </div>
-
-    <div class="card">
-      <h2>Ideal para</h2>
-      <p>Afiliados, infoprodutores ou qualquer pessoa que quer começar a vender online com uma estrutura simples e eficiente.</p>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="font-bold text-xl mb-2">📱 Responsivo</h3>
+      <p>Funciona perfeito no celular e computador.</p>
     </div>
-
-    <div class="card cta">
-      <h2>Garanta o seu agora</h2>
-      <p>Comece a vender hoje mesmo</p>
-      <a href="#" class="btn">QUERO COMEÇAR</a>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="font-bold text-xl mb-2">💰 Conversão</h3>
+      <p>Estrutura feita para gerar vendas.</p>
     </div>
+  </section>
 
-  </div>
+  <!-- SOBRE -->
+  <section class="bg-white py-16 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">O que você vai receber?</h2>
+    <p class="max-w-2xl mx-auto">Uma página de vendas completa, moderna e pronta para você apenas adicionar seu produto e começar a faturar.</p>
+  </section>
 
-  <footer>
+  <!-- DEPOIMENTOS -->
+  <section class="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-6">
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p>"Consegui minhas primeiras vendas em poucos dias!"</p>
+      <strong>- Cliente</strong>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p>"Muito fácil de usar e já vem pronto pra vender."</p>
+      <strong>- Cliente</strong>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="bg-purple-600 text-white text-center py-16 px-4">
+    <h2 class="text-3xl font-bold mb-4">Garanta agora sua página</h2>
+    <p class="mb-6">Comece hoje mesmo</p>
+    <a href="#" class="bg-white text-purple-600 px-8 py-3 rounded-full font-bold hover:bg-gray-200">COMPRAR AGORA</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-sm text-gray-500">
     © 2026 - Sua Marca
   </footer>
 
