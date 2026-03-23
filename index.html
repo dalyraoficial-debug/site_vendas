@@ -1,65 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Vendas Pro</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforme Sua Vida Hoje</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Evo<span>Course</span></h1>
+            <a href="#offer" class="btn-small">Garantir Vaga</a>
+        </div>
+    </nav>
 
-  <!-- HERO -->
-  <section class="bg-gradient-to-r from-purple-600 to-blue-500 text-white text-center py-20 px-4">
-    <h1 class="text-4xl md:text-5xl font-bold mb-4">Crie Seu Negócio Online Hoje</h1>
-    <p class="text-lg md:text-xl mb-6">Página pronta para vender no automático</p>
-    <a href="#" class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold hover:bg-gray-200">COMEÇAR AGORA</a>
-  </section>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge">Método Comprovado</span>
+                <h2>Descubra o Segredo para <span class="highlight">Alcançar Seus Objetivos</span> em Tempo Recorde</h2>
+                <p>Junte-se a mais de 5.000 alunos que já transformaram suas carreiras com o nosso método exclusivo, prático e direto ao ponto.</p>
+                <a href="#offer" class="btn-primary">Quero Começar Agora</a>
+                <p class="security-text">🔒 7 dias de garantia incondicional</p>
+            </div>
+            <div class="hero-image">
+                <iframe width="100%" height="400" src="youtube.com/watch?v=3EiirAbbY00&feature=youtu.be" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(79, 70, 229, 0.3); border: 1px solid rgba(255, 255, 255, 0.1);"></iframe>
+            </div>
+        </div>
+    </header>
 
-  <!-- BENEFÍCIOS -->
-  <section class="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-3 gap-6">
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl mb-2">🚀 Rápido</h3>
-      <p>Carregamento leve e otimizado para vendas.</p>
-    </div>
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl mb-2">📱 Responsivo</h3>
-      <p>Funciona perfeito no celular e computador.</p>
-    </div>
-    <div class="bg-white p-6 rounded-2xl shadow">
-      <h3 class="font-bold text-xl mb-2">💰 Conversão</h3>
-      <p>Estrutura feita para gerar vendas.</p>
-    </div>
-  </section>
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h3 class="section-title">O que você vai aprender?</h3>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h4>Aceleração de Resultados</h4>
+                    <p>Técnicas validadas para você alcançar em meses o que levaria anos.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💡</div>
+                    <h4>Estratégias Práticas</h4>
+                    <p>Sem enrolação. Apenas o que realmente funciona no mercado atual.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📈</div>
+                    <h4>Crescimento Escalonável</h4>
+                    <p>Crie um sistema que trabalha por você e multiplique seus ganhos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- SOBRE -->
-  <section class="bg-white py-16 px-4 text-center">
-    <h2 class="text-3xl font-bold mb-4">O que você vai receber?</h2>
-    <p class="max-w-2xl mx-auto">Uma página de vendas completa, moderna e pronta para você apenas adicionar seu produto e começar a faturar.</p>
-  </section>
+    <!-- Social Proof Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h3 class="section-title">Quem já fez, <span class="highlight">recomenda</span>.</h3>
+            <div class="grid-2">
+                <div class="testimonial-card">
+                    <p>"Esse método mudou completamente minha visão. Em 30 dias eu já tinha recuperado o investimento!"</p>
+                    <div class="author">
+                        <div class="avatar">M</div>
+                        <div>
+                            <strong>Marcos Silva</strong>
+                            <span>Empreendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Conteúdo direto e prático. O melhor investimento que fiz na minha carreira este ano."</p>
+                    <div class="author">
+                        <div class="avatar">A</div>
+                        <div>
+                            <strong>Ana Costa</strong>
+                            <span>Especialista de Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- DEPOIMENTOS -->
-  <section class="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-6">
-    <div class="bg-white p-6 rounded-xl shadow">
-      <p>"Consegui minhas primeiras vendas em poucos dias!"</p>
-      <strong>- Cliente</strong>
-    </div>
-    <div class="bg-white p-6 rounded-xl shadow">
-      <p>"Muito fácil de usar e já vem pronto pra vender."</p>
-      <strong>- Cliente</strong>
-    </div>
-  </section>
+    <!-- Pricing Section -->
+    <section class="offer" id="offer">
+        <div class="container offer-container">
+            <div class="offer-box">
+                <h3>Oferta Exclusiva</h3>
+                <p>Acesso completo e vitalício + Todos os bônus exclusivos.</p>
+                
+                <div class="timer">
+                    <p>Esta oferta expira em:</p>
+                    <div id="countdown" class="countdown">
+                        <div><span id="hours">00</span> hs</div>
+                        <div><span id="minutes">15</span> min</div>
+                        <div><span id="seconds">00</span> seg</div>
+                    </div>
+                </div>
 
-  <!-- CTA FINAL -->
-  <section class="bg-purple-600 text-white text-center py-16 px-4">
-    <h2 class="text-3xl font-bold mb-4">Garanta agora sua página</h2>
-    <p class="mb-6">Comece hoje mesmo</p>
-    <a href="#" class="bg-white text-purple-600 px-8 py-3 rounded-full font-bold hover:bg-gray-200">COMPRAR AGORA</a>
-  </section>
+                <div class="price">
+                    <span class="old-price">De R$ 297,00 por</span>
+                    <span class="new-price">12x de <span class="highlight">R$ 9,99</span></span>
+                    <span class="cash-price">ou R$ 99,99 à vista no PIX</span>
+                </div>
 
-  <!-- FOOTER -->
-  <footer class="text-center py-6 text-sm text-gray-500">
-    © 2026 - Sua Marca
-  </footer>
+                <a href="#" class="btn-primary pulse">Comprar Agora e Mudar de Vida</a>
+                
+                <ul class="guarantees">
+                    <li>✔️ Acesso imediato</li>
+                    <li>✔️ Suporte VIP</li>
+                    <li>✔️ Certificado de conclusão</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h3 class="section-title">Perguntas Frequentes</h3>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Como recebo acesso ao curso?</button>
+                    <div class="accordion-content">
+                        <p>Imediatamente após a confirmação do pagamento, você receberá um email com seu login e senha exclusivos para acessar a plataforma.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">E se eu não gostar?</button>
+                    <div class="accordion-content">
+                        <p>Você tem 7 dias de garantia incondicional. Se não gostar, devolvemos 100% do seu dinheiro sem letras miúdas.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Por quanto tempo terei acesso?</button>
+                    <div class="accordion-content">
+                        <p>Seu acesso é vitalício. Você poderá assistir às aulas quantas vezes quiser e onde estiver.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 EvoCourse. Todos os direitos reservados.</p>
+            <p><a href="#">Termos de Uso</a> | <a href="#">Políticas de Privacidade</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
